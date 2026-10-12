@@ -1,0 +1,334 @@
+#elementor-popup-modal-754 .dialog-close-button svg {
+    fill: none !important;
+	background-image:url(https://obgyncbwc.com/wp-content/uploads/2024/05/humburger-icon.svg);
+	background-size: 20px;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px !important;
+    background-repeat: no-repeat;
+}
+#elementor-popup-modal-754 .dialog-close-button:hover {
+    background: none !important;
+}
+
+.infectionBox{
+	margin:0px 10px;
+	min-height:850px !important;
+}
+
+.coreServicesBox{
+	margin:0px 10px !important;
+	min-height:650px !important;
+}
+
+.slick-prev:before {
+    font-size: 15px !important;
+}
+.slick-next:before {
+    font-size: 15px !important;
+}
+
+.gform_wrapper ul.gfield_checkbox li input[type=checkbox] {
+    display:none !important
+}
+.gform_wrapper ul.gfield_checkbox li input[type=checkbox] + label{
+    font-weight:normal;
+    cursor:pointer;
+    margin-bottom:0;
+    padding-left:0;
+    line-height:1;
+    margin:0;
+}
+.gform_wrapper ul.gfield_checkbox li input[type=checkbox] + label:before {
+    content:"";
+    display:inline-block;
+    width:17px;
+    height:17px;
+    vertical-align:middle;
+    margin-right:8px;
+    background-color:#fff;
+    border:1px solid #ccc;
+    border-radius:2px;
+    font-weight:normal;
+}
+.gform_wrapper ul.gfield_checkbox li input[type=checkbox]:checked + label:before {
+    content:"\2714";
+    color:white;
+    background-color:#69f;
+    border:1px solid #69f;
+    text-align:center;
+    line-height:14px;
+}
+.gform_wrapper ul.gfield_radio li input[type="radio"] {
+    display: none;
+}
+
+.gform_wrapper ul.gfield_radio li input[type="radio"] + label{
+    font-weight:normal;
+    cursor:pointer;
+    margin-bottom:0;
+    padding-left:27px;
+    line-height:1;
+    margin:0;
+}
+.gform_wrapper ul.gfield_radio li input[type="radio"] + label:before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin: 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+.gform_wrapper ul.gfield_radio li input[type="radio"]:checked + label:before {
+    background-color: #fff;
+    border: 4px solid #69f;
+}
+.gform_wrapper .gfield_validation_message, .gform_wrapper .validation_message {
+    display: none !important;
+}
+.gform_wrapper .gfield_error [aria-invalid=true] {
+    border: 1px solid #c01f41 !important;
+}
+.gform_wrapper .gform_validation_errors {
+    border: 1.5px solid #c01f41 !important;
+}
+.gform_wrapper .gfield_error .gfield_repeater_cell label, .gform_wrapper .gfield_error label, .gform_wrapper .gfield_error legend, .gform_wrapper .gfield_validation_message, .gform_wrapper .validation_message, .gform_wrapper [aria-invalid=true]+label, .gform_wrapper label+[aria-invalid=true] {
+    color: #c01f41 !important;
+}
+.gform_wrapper .gfield_required {
+    color: #c01f41 !important;
+}
+body .gform_wrapper .top_label .gfield_label {
+    margin-top: 0;
+}
+body div#ui-datepicker-div[style] {
+    background-color: #fff;
+    padding: 10px;
+    min-width: 270px;
+}
+.ui-datepicker-title select {
+    margin-top: 0 !important;
+    width: 88px;
+    float: left;
+    padding: 0px 7px !important;
+    height: 32px;
+    font-size: 13px;
+}
+body .ui-datepicker-header {
+    background-color: transparent !important;
+    color: #000 !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    filter: none !important;
+    min-height: 40px!important;
+    border-width: 0 !important;
+}
+.ui-datepicker .ui-datepicker-header a {
+    background-color: #000 !important;
+}
+.ui-datepicker-prev {
+    margin-right: 7px;
+}
+.ui-datepicker td a, .ui-datepicker td span {
+    width: 100% !important;
+    background: #fff !important;
+    text-shadow: none !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    height: 30px !important;
+    display: block !important;
+}
+.ui-datepicker tbody td {
+    padding: 0;
+    border: 1px solid #ccc;
+}
+td.ui-datepicker-unselectable.ui-state-disabled {
+    background-color: #eee;
+}
+.ui-datepicker tbody td:last-child {
+    border-right: 1px solid #bbb;
+}
+.ui-datepicker .ui-datepicker-calendar td {
+    height: 30px !important;
+}
+.ui-datepicker .ui-datepicker-calendar .ui-state-default {
+    background-color: transparent !important;
+}
+.ui-datepicker th {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px !important;
+    padding: 0 !important;
+    color: #fff !important;
+    text-shadow: none !important;
+    filter: none !important;
+    background-color: #555 !important;
+}
+.ui-datepicker .ui-datepicker-calendar td:hover, .ui-datepicker .ui-datepicker-calendar td.ui-datepicker-today {
+    background-color: #eeeeee !important;
+}
+.sadu-gravaty-style .gform_wrapper .gfield_error .gfield_label {
+    color: #e60000 !important;
+}
+.loader {
+  border: 5px solid #eee;
+  border-radius: 50%;
+  border-top: 5px solid #0053A0;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.btn-load {
+  position: relative;
+  opacity: .8;
+  color: transparent !important;
+  text-shadow: none !important;
+}
+.btn-load:hover,
+.btn-load:active,
+.btn-load:focus {
+  cursor: default;
+  color: transparent;
+  outline: none !important;
+  box-shadow: none;
+}
+.btn-load:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  background: transparent;
+  border: 1px solid #fff;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  box-sizing: border-box;
+  top: 50%;
+  left: 50%;
+  margin-top: -12px;
+  margin-left: -12px;
+  width: 24px;
+  height: 24px;
+  -webkit-animation: ld 1s ease-in-out infinite;
+  -moz-animation: ld 1s ease-in-out infinite;
+  -o-animation: ld 1s ease-in-out infinite;
+  animation: ld 1s ease-in-out infinite;
+}
+.btn-default.btn-load:before {
+  border-left-color: #333333;
+  border-right-color: #333333;
+}
+.btn-lg.btn-load:before {
+  margin-top: -16px;
+  margin-left: -16px;
+  width: 32px;
+  height: 32px;
+}
+.btn-sm.btn-load:before {
+  margin-top: -9px;
+  margin-left: -9px;
+  width: 18px;
+  height: 18px;
+}
+.btn-xs.btn-load:before {
+  margin-top: -7px;
+  margin-left: -7px;
+  width: 14px;
+  height: 14px;
+}
+@-webkit-keyframes ld {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+@-moz-keyframes ld {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+@-o-keyframes ld {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+@keyframes ld {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+.progress_load {
+    height: 4px;
+    position: relative;
+    display: block;
+    background-color: #2e4b93;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+}
+.loadmoreDiv{
+  text-align:center;
+}
+.progress_load:after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .5)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .5)), color-stop(.75, rgba(255, 255, 255, .5)), color-stop(.75, transparent), to(transparent));
+    background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .5) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .5) 50%, rgba(255, 255, 255, .5) 75%, transparent 75%, transparent);
+    z-index: 1;
+    background-size: 30px 30px;
+    -webkit-animation: move 1s linear infinite;
+    -moz-animation: move 1s linear infinite;
+    overflow: hidden;
+}
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}

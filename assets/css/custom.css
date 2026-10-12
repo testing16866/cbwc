@@ -1,0 +1,389 @@
+.homeContactlink a{
+    color: #fff;
+}
+
+.elementor-737 .elementor-element.elementor-element-92cd702:not(.elementor-motion-effects-element-type-background), .elementor-737 .elementor-element.elementor-element-92cd702 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #041725;
+    z-index: 1111;
+}
+
+#menu-2-4adbd9b > .current-menu-parent > a {
+    color: #01DDE5 !important;
+}
+
+.sub-menu .menu-item{
+	border-bottom-width: 0px !important;
+}
+
+.sub-menu .menu-item a{
+	padding: 8px 0px !important;
+	font-weight:500 !important;
+}
+
+.elementor-sub-item{
+
+}
+
+.stickyMenuSec {
+	width: 100% !important;
+}
+.stickyMenuSec.active {
+	display: flex !important;
+}
+.mainMenuDropDown nav ul li span.sub-arrow svg {
+    fill: #fff;
+}
+
+.btnBorderEffect::after,
+.btnBorderEffect::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    transition: .5s;
+}
+
+.btnBorderEffect::after {
+    top: -9px;
+    left: -9px;
+    border-top: 3px solid transparent;
+    border-left: 3px solid transparent;
+}
+
+.btnBorderEffect::before {
+    bottom: -9px;
+    right: -9px;
+    border-bottom: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+
+.btnBorderEffect:hover {
+    color: #222222;
+}
+
+.btnBorderEffect:hover::after,
+.btnBorderEffect:hover::before {
+    width: 30px;
+    height: 30px;
+    border-color: #01DDE5;
+}
+
+.coreServicesBox {
+ border: solid 2px transparent;
+ border-radius: 20px;
+ background-image: linear-gradient(white, white), linear-gradient(142deg, #01DDE5, #0159EB);
+ background-origin: border-box;
+ background-clip: content-box, border-box;
+}
+.coreServicesBox:hover {
+	background-image: linear-gradient(#274AAB, #274AAB);border: 2px solid transparent;
+}
+.coreServicesBox:hover .elementor-widget-container h3 {
+    color: #fff;
+}
+.coreServicesBox:hover .elementor-widget-container {
+    color: #fff;
+}
+.coreServicesBox:hover a.elementor-button {
+    background: transparent !important;
+}
+.coreServicesBox:hover a.elementor-button span.elementor-button-text {
+    color: #fff !important;
+}
+
+.nursePractitionersBox {
+ border: solid 2px transparent;
+ border-radius: 20px;
+ background-image: linear-gradient(white, white), linear-gradient(142deg, #01DDE5, #0159EB);
+ background-origin: border-box;
+ background-clip: content-box, border-box;
+	filter: grayscale(1);
+}
+.nursePractitionersBox:hover {
+    filter: grayscale(0);
+    transform: scale(1.02);
+}
+.clinicHoursTitle h2 {
+    color: #fff;
+}
+.clinicHoursTitle h2 {
+    color: #fff;
+}
+.clinicHourSchedule ul li {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+    border-bottom: 1px solid #4C69B9;
+    padding: 16px 0;
+}
+
+.clinicHourSchedule ul {
+    margin: 0;
+    padding: 0;
+}
+
+.clinicHourSchedule .clinicTime {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.clinicHourSchedule .clinicDay {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.clinicBtn a.contactUsBtn {
+    background: #fff;
+    color: #274AAB;
+    font-size: 22px;
+    line-height: 70px;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    height: 70px;
+    padding: 0;
+}
+.clinicHourSchedule {
+    padding-bottom: 45px;
+}
+.clinicBtn a.contactUsBtn:hover {
+    background: #01DDE5;
+    color: #fff;
+}
+
+.medicationBox {
+ border: solid 2px transparent;
+ border-radius: 20px;
+ background-image: linear-gradient(white, white), linear-gradient(142deg, #01DDE5, #0159EB);
+ background-origin: border-box;
+ background-clip: content-box, border-box;
+}
+.medicationBox:hover {
+	background-image: linear-gradient(#274AAB, #274AAB);border: 2px solid transparent;
+}
+.medicationBox:hover .elementor-widget-container h3 {
+    color: #fff;
+}
+.medicationBox:hover .elementor-widget-container {
+    color: #fff;
+}
+.medicationBox:hover a.elementor-button {
+    background: transparent !important;
+}
+.medicationBox:hover a.elementor-button span.elementor-button-text {
+    color: #fff !important;
+}
+.obstetricsFaqs .elementor-toggle-item .elementor-tab-title {
+    border-radius: 3px;
+}
+.obstetricsFaqs .elementor-toggle-item .elementor-tab-title.elementor-active {
+    background: #274AAB;
+}
+.obstetricsFaqs .elementor-toggle-item .elementor-tab-title:hover a.elementor-toggle-title {
+    color: #01DDE5 !important;
+}
+
+.scheduleForm .gfield.gfield--type-html h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #1E1E1E;
+		margin: 0;
+}
+.scheduleForm .gfield .ginput_container input {
+    padding: 0px 0px 0px 20px;
+    margin: 0;
+    height: 71px;
+    font-size: 18px;
+    color: #1E1E1E;
+		border-color: #C9C9C9;
+		max-width: 98%;
+}
+.scheduleForm .gform_fields .ginput_container input::placeholder {
+    color: #4F4E56;
+}
+.scheduleForm .gform_fields .ginput_container textarea::placeholder {
+    color: #4F4E56;
+}
+.scheduleForm .gfield .ginput_container select {
+    padding: 0px 0px 0px 20px;
+    margin: 0;
+    height: 71px;
+    font-size: 18px;
+    color: #1E1E1E;
+		border-color: #C9C9C9;
+		line-height: 71px;
+		max-width: 98%;
+}
+.scheduleForm .gfield .ginput_container textarea {
+    padding: 20px 0px 0px 20px;
+    font-size: 18px;
+    color: #1E1E1E;
+		border-color: #C9C9C9;
+		max-width: 99%;
+}
+.scheduleForm .gfield .ginput_container input.datepicker {
+		width: 100%;
+}
+.scheduleForm .gform_footer.before input {
+    display: block;
+    width: 100% !important;
+    height: 70px !important;
+    background: #274AAB !important;
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    color: #fff !important;
+}
+.scheduleForm .gform-body.gform_body .gform_fields {
+    row-gap: 26px;
+}
+
+.scheduleForm  .gform_footer.before {
+		margin-top: 40px;
+}
+.scheduleForm .gform_footer.before input:hover {
+	background: #01DDE5 !important;
+}
+.scheduleForm  div#gform_2_validation_container {
+    display: none;
+}
+
+.appointmentForm .gform_fields {
+    row-gap: 20px;
+}
+.appointmentForm .gform_fields .ginput_container input {
+    height: 50px;
+    border-radius: 3px;
+    border-color: #C9C9C9;
+    color: #1e1e1e;
+    font-size: 16px;
+    line-height: 50px;
+}
+.appointmentForm .gform_fields .ginput_container textarea {
+    border-radius: 3px;
+    border-color: #C9C9C9;
+    color: #1e1e1e;
+    font-size: 16px;
+}
+.appointmentForm .gform_fields .ginput_container input::placeholder {
+    color: #4F4E56;
+}
+.appointmentForm .gform_fields .ginput_container textarea::placeholder {
+    color: #4F4E56;
+}
+.appointmentForm .gform_footer.before input {
+    width: 100% !important;
+    font-size: 16px !important;
+    height: 50px !important;
+    background: #274AAB !important;
+}
+.appointmentForm .gfield.gfield--type-html {
+    color: #1e1e1e;
+}
+.appointmentForm  .gform_footer.before {
+    margin-top: 40px;
+}
+.appointmentForm .gform_footer.before input:hover {
+		background: #01DDE5 !important;
+}
+.appointmentForm .gform_validation_errors {
+    display: none !important;
+}
+
+.designedByCol .elementor-widget-container a {
+    font-weight: 700;
+    color: #1e1e1e;
+}
+.designedByCol .elementor-widget-container a:hover {
+	color: #01DDE5;
+}
+.footerTermsText .elementor-widget-container a {
+    color: #767F95;
+}
+.footerTermsText .elementor-widget-container a:hover {
+	color: #01DDE5;
+}
+
+.elementor-location-header {
+	display: none;
+}
+.fixedheader .elementor-location-header {
+	display: block;
+}
+.activeSidebar .elementor-location-header {
+	display: none;
+}
+
+#elementor-popup-modal-754 .dialog-lightbox-buttons-wrapper {
+	display: block;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+}
+#elementor-popup-modal-754 .dialog-lightbox-message {
+	z-index: 999;
+	position: relative;
+}
+
+@media only screen and (max-width:991px ) {
+
+	.heroSectionTxt h1{
+		font-size: 32px !important;
+		line-height: 42px !important;
+	}
+
+	.stickyMenuSec {
+		display:none!important;
+	}
+	.stickyMenuSec.active {
+		display:none!important;
+	}
+	.elementor-widget-container h1 {
+		font-size: 48px;
+    line-height: 58px;
+	}
+	.elementor-widget-container h2 {
+		font-size: 36px;
+    line-height: 42px;
+}
+	#elementor-popup-modal-754{
+    position:fixed !important;
+		top:0px !important;
+		left:0px !important;
+}
+}
+@media only screen and (max-width:769px ) {
+
+}
+@media only screen and (max-width:690px ) {
+
+	.heroSectionTxt h1{
+		font-size: 20px !important;
+		line-height: 32px !important;
+	}
+
+	.elementor-widget-container h1 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.elementor-widget-container h2 {
+    font-size: 26px;
+    line-height: 30px;
+	}
+	.elementor-widget-container h3 {
+    font-size: 22px;
+    line-height: 30px;
+	}
+	.elementor-widget-container h5 {
+    font-size: 18px;
+    line-height: 28px;
+	}
+
+}
