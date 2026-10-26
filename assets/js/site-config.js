@@ -1,4 +1,4 @@
 
 window.SITE_CONFIG = {
-  formspreeEndpoint: ""
+  formspreeEndpoint: "https://formsubmit.co/ajax/testing16866@gmail.com"
 };

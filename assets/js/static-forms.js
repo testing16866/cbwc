@@ -173,7 +173,7 @@
     }
 
     var url = endpoint();
-    if (!/^https:\/\/formspree\.io\/f\/[A-Za-z0-9]+$/.test(url)) {
+    if (!/^https:\/\/(formspree\.io\/f\/[A-Za-z0-9]+|formsubmit\.co\/ajax\/[^\s\/]+)$/.test(url)) {
       wrapper.classList.add("gform_validation_error");
       showSummary(wrapper, formId, MSG.notConnected).focus({ preventScroll: true });
       scrollToWrapper(wrapper);
@@ -185,6 +185,10 @@
     fetch(url, { method: "POST", body: collect(form), headers: { "Accept": "application/json" } })
       .then(function (res) {
         if (!res.ok) throw new Error("status " + res.status);
+        return res.json().catch(function () { return {}; });
+      })
+      .then(function (json) {
+        if (json && (json.success === false || json.success === "false")) throw new Error(json.message || "failed");
         showThanks(wrapper, formId);
       })
       .catch(function () {
